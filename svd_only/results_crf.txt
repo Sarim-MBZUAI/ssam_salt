@@ -1,0 +1,2 @@
+./svdtuning/ , Best val loss: 0.258980, best val dice: 0.748238
+./svdtuning/dataset_drive , Best val loss: 0.308168, best val dice: 0.704211

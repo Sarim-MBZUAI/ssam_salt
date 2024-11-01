@@ -1,0 +1,27 @@
+Training parameters:
+----------
+number of trainable parameters:  1034496
+batch size:  5
+num epochs:  200
+Epoch 0/199
+----------
+
+
+
+
+training Epoch 0:  95%|████████▌| 18/19 [00:23<00:00,  2.21it/s, loss=0.905, dice=tensor(0.1949, device='cuda:0')]
+
+val Epoch 0:  78%|████████████▍   | 7/9 [00:01<00:00,  4.86it/s, loss=0.911, dice=tensor(0.2866, device='cuda:0')]
+val Loss: 0.9269 Dice: 0.0564
+Epoch 1/199
+
+Traceback (most recent call last):
+  File "/l/users/sarim.hashmi/for_the_little_interns/the_experiments/svd_only/driver_scratchpad.py", line 956, in <module>
+    main_train(
+  File "/l/users/sarim.hashmi/for_the_little_interns/the_experiments/svd_only/driver_scratchpad.py", line 877, in main_train
+    model = train_dl(
+            ^^^^^^^^^
+  File "/l/users/sarim.hashmi/for_the_little_interns/the_experiments/svd_only/train.py", line 237, in train_dl
+    running_loss += loss.item() * inputs.size(0)
+                    ^^^^^^^^^^^
+KeyboardInterrupt

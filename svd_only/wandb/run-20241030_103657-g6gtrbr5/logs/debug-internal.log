@@ -1,0 +1,266 @@
+2024-10-30 10:36:58,021 INFO    StreamThr :184132 [internal.py:wandb_internal():85] W&B internal server running at pid: 184132, started at: 2024-10-30 10:36:58.019611
+2024-10-30 10:36:58,023 DEBUG   HandlerThread:184132 [handler.py:handle_request():158] handle_request: status
+2024-10-30 10:36:58,024 INFO    WriterThread:184132 [datastore.py:open_for_write():87] open: /l/users/sarim.hashmi/for_the_little_interns/the_experiments/svd_only/wandb/run-20241030_103657-g6gtrbr5/run-g6gtrbr5.wandb
+2024-10-30 10:36:58,027 DEBUG   SenderThread:184132 [sender.py:send():379] send: header
+2024-10-30 10:36:58,033 DEBUG   SenderThread:184132 [sender.py:send():379] send: run
+2024-10-30 10:36:58,651 INFO    SenderThread:184132 [dir_watcher.py:__init__():211] watching files in: /l/users/sarim.hashmi/for_the_little_interns/the_experiments/svd_only/wandb/run-20241030_103657-g6gtrbr5/files
+2024-10-30 10:36:58,651 INFO    SenderThread:184132 [sender.py:_start_run_threads():1188] run started: g6gtrbr5 with start time 1730270218.02015
+2024-10-30 10:36:58,658 DEBUG   HandlerThread:184132 [handler.py:handle_request():158] handle_request: check_version
+2024-10-30 10:36:58,658 DEBUG   SenderThread:184132 [sender.py:send_request():406] send_request: check_version
+2024-10-30 10:36:58,752 DEBUG   HandlerThread:184132 [handler.py:handle_request():158] handle_request: run_start
+2024-10-30 10:36:58,789 DEBUG   HandlerThread:184132 [system_info.py:__init__():26] System info init
+2024-10-30 10:36:58,789 DEBUG   HandlerThread:184132 [system_info.py:__init__():41] System info init done
+2024-10-30 10:36:58,789 INFO    HandlerThread:184132 [system_monitor.py:start():194] Starting system monitor
+2024-10-30 10:36:58,789 INFO    SystemMonitor:184132 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-10-30 10:36:58,790 INFO    HandlerThread:184132 [system_monitor.py:probe():214] Collecting system info
+2024-10-30 10:36:58,790 INFO    SystemMonitor:184132 [interfaces.py:start():188] Started cpu monitoring
+2024-10-30 10:36:58,790 INFO    SystemMonitor:184132 [interfaces.py:start():188] Started disk monitoring
+2024-10-30 10:36:58,791 INFO    SystemMonitor:184132 [interfaces.py:start():188] Started gpu monitoring
+2024-10-30 10:36:58,792 INFO    SystemMonitor:184132 [interfaces.py:start():188] Started memory monitoring
+2024-10-30 10:36:58,792 INFO    SystemMonitor:184132 [interfaces.py:start():188] Started network monitoring
+2024-10-30 10:36:58,867 DEBUG   HandlerThread:184132 [system_info.py:probe():152] Probing system
+2024-10-30 10:36:58,870 DEBUG   HandlerThread:184132 [system_info.py:_probe_git():137] Probing git
+2024-10-30 10:36:58,882 DEBUG   HandlerThread:184132 [system_info.py:_probe_git():145] Probing git done
+2024-10-30 10:36:58,882 DEBUG   HandlerThread:184132 [system_info.py:probe():200] Probing system done
+2024-10-30 10:36:58,882 DEBUG   HandlerThread:184132 [system_monitor.py:probe():223] {'os': 'Linux-5.15.133-ql-generic-13.0-9-x86_64-with-glibc2.35', 'python': '3.12.1', 'heartbeatAt': '2024-10-30T06:36:58.867340', 'startedAt': '2024-10-30T06:36:57.997726', 'docker': None, 'cuda': None, 'args': ('--model_config', 'model_svdtuning.yml', '--data_config', 'config_arcade.yml', '--save_path', './temp.pth'), 'state': 'running', 'program': '/l/users/sarim.hashmi/for_the_little_interns/the_experiments/svd_only/driver_scratchpad.py', 'codePathLocal': 'driver_scratchpad.py', 'codePath': 'driver_scratchpad.py', 'git': {'remote': 'https://github.com/JayParanjape/SVDSAM.git', 'commit': '5936d0eff64d84fbefed6ecfe4bcc841459c2fc3'}, 'cpu_count': 16, 'cpu_count_logical': 32, 'cpu_freq': {'current': 2.5138125000000002, 'min': 1000.0, 'max': 3500.0}, 'cpu_freq_per_core': [{'current': 2.5, 'min': 1000.0, 'max': 3500.0}, {'current': 2.5, 'min': 1000.0, 'max': 3500.0}, {'current': 2.5, 'min': 1000.0, 'max': 3500.0}, {'current': 2.5, 'min': 1000.0, 'max': 3500.0}, {'current': 2.5, 'min': 1000.0, 'max': 3500.0}, {'current': 2.5, 'min': 1000.0, 'max': 3500.0}, {'current': 2.5, 'min': 1000.0, 'max': 3500.0}, {'current': 2.5, 'min': 1000.0, 'max': 3500.0}, {'current': 2.5, 'min': 1000.0, 'max': 3500.0}, {'current': 2.5, 'min': 1000.0, 'max': 3500.0}, {'current': 2.5, 'min': 1000.0, 'max': 3500.0}, {'current': 2.5, 'min': 1000.0, 'max': 3500.0}, {'current': 2.5, 'min': 1000.0, 'max': 3500.0}, {'current': 2.5, 'min': 1000.0, 'max': 3500.0}, {'current': 2.5, 'min': 1000.0, 'max': 3500.0}, {'current': 2.93, 'min': 1000.0, 'max': 3500.0}, {'current': 2.5, 'min': 1000.0, 'max': 3500.0}, {'current': 2.5, 'min': 1000.0, 'max': 3500.0}, {'current': 2.5, 'min': 1000.0, 'max': 3500.0}, {'current': 2.5, 'min': 1000.0, 'max': 3500.0}, {'current': 2.5, 'min': 1000.0, 'max': 3500.0}, {'current': 2.5, 'min': 1000.0, 'max': 3500.0}, {'current': 2.5, 'min': 1000.0, 'max': 3500.0}, {'current': 2.5, 'min': 1000.0, 'max': 3500.0}, {'current': 2.5, 'min': 1000.0, 'max': 3500.0}, {'current': 2.5, 'min': 1000.0, 'max': 3500.0}, {'current': 2.5, 'min': 1000.0, 'max': 3500.0}, {'current': 2.5, 'min': 1000.0, 'max': 3500.0}, {'current': 2.5, 'min': 1000.0, 'max': 3500.0}, {'current': 2.5, 'min': 1000.0, 'max': 3500.0}, {'current': 2.5, 'min': 1000.0, 'max': 3500.0}, {'current': 2.5, 'min': 1000.0, 'max': 3500.0}], 'disk': {'/': {'total': 1.0, 'used': 0.043384552001953125}}, 'gpu': 'Quadro RTX 6000', 'gpu_count': 1, 'gpu_devices': [{'name': 'Quadro RTX 6000', 'memory_total': 25769803776}], 'memory': {'total': 125.55096435546875}}
+2024-10-30 10:36:58,883 INFO    HandlerThread:184132 [system_monitor.py:probe():224] Finished collecting system info
+2024-10-30 10:36:58,883 INFO    HandlerThread:184132 [system_monitor.py:probe():227] Publishing system info
+2024-10-30 10:36:58,883 DEBUG   HandlerThread:184132 [system_info.py:_save_conda():209] Saving list of conda packages installed into the current environment
+2024-10-30 10:36:59,654 INFO    Thread-12 :184132 [dir_watcher.py:_on_file_created():271] file/dir created: /l/users/sarim.hashmi/for_the_little_interns/the_experiments/svd_only/wandb/run-20241030_103657-g6gtrbr5/files/conda-environment.yaml
+2024-10-30 10:37:13,892 ERROR   HandlerThread:184132 [system_info.py:_save_conda():223] Error saving conda packages: Command '['conda', 'env', 'export']' timed out after 15 seconds
+Traceback (most recent call last):
+  File "/home/sarim.hashmi/anaconda3/envs/AI702/lib/python3.12/site-packages/wandb/sdk/internal/system/system_info.py", line 216, in _save_conda
+    subprocess.call(
+  File "/home/sarim.hashmi/anaconda3/envs/AI702/lib/python3.12/subprocess.py", line 391, in call
+    return p.wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sarim.hashmi/anaconda3/envs/AI702/lib/python3.12/subprocess.py", line 1264, in wait
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sarim.hashmi/anaconda3/envs/AI702/lib/python3.12/subprocess.py", line 2038, in _wait
+    raise TimeoutExpired(self.args, timeout)
+subprocess.TimeoutExpired: Command '['conda', 'env', 'export']' timed out after 15 seconds
+2024-10-30 10:37:13,895 DEBUG   HandlerThread:184132 [system_info.py:_save_conda():224] Saving conda packages done
+2024-10-30 10:37:13,899 INFO    HandlerThread:184132 [system_monitor.py:probe():229] Finished publishing system info
+2024-10-30 10:37:13,912 DEBUG   HandlerThread:184132 [handler.py:handle_request():158] handle_request: status_report
+2024-10-30 10:37:13,912 DEBUG   HandlerThread:184132 [handler.py:handle_request():158] handle_request: keepalive
+2024-10-30 10:37:13,913 DEBUG   HandlerThread:184132 [handler.py:handle_request():158] handle_request: status_report
+2024-10-30 10:37:13,913 DEBUG   HandlerThread:184132 [handler.py:handle_request():158] handle_request: keepalive
+2024-10-30 10:37:13,913 DEBUG   HandlerThread:184132 [handler.py:handle_request():158] handle_request: status_report
+2024-10-30 10:37:13,913 DEBUG   HandlerThread:184132 [handler.py:handle_request():158] handle_request: keepalive
+2024-10-30 10:37:13,913 DEBUG   SenderThread:184132 [sender.py:send():379] send: files
+2024-10-30 10:37:13,913 INFO    SenderThread:184132 [sender.py:_save_file():1454] saving file wandb-metadata.json with policy now
+2024-10-30 10:37:14,454 DEBUG   HandlerThread:184132 [handler.py:handle_request():158] handle_request: python_packages
+2024-10-30 10:37:14,455 DEBUG   HandlerThread:184132 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-30 10:37:14,455 DEBUG   HandlerThread:184132 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-30 10:37:14,455 DEBUG   SenderThread:184132 [sender.py:send_request():406] send_request: python_packages
+2024-10-30 10:37:14,459 DEBUG   SenderThread:184132 [sender.py:send_request():406] send_request: stop_status
+2024-10-30 10:37:14,665 INFO    Thread-12 :184132 [dir_watcher.py:_on_file_created():271] file/dir created: /l/users/sarim.hashmi/for_the_little_interns/the_experiments/svd_only/wandb/run-20241030_103657-g6gtrbr5/files/requirements.txt
+2024-10-30 10:37:14,665 INFO    Thread-12 :184132 [dir_watcher.py:_on_file_created():271] file/dir created: /l/users/sarim.hashmi/for_the_little_interns/the_experiments/svd_only/wandb/run-20241030_103657-g6gtrbr5/files/wandb-metadata.json
+2024-10-30 10:37:14,763 DEBUG   SenderThread:184132 [sender.py:send():379] send: telemetry
+2024-10-30 10:37:15,014 INFO    wandb-upload_0:184132 [upload_job.py:push():130] Uploaded file /tmp/tmphgt2o1igwandb/3usu82im-wandb-metadata.json
+2024-10-30 10:37:15,453 DEBUG   HandlerThread:184132 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-30 10:37:15,667 INFO    Thread-12 :184132 [dir_watcher.py:_on_file_created():271] file/dir created: /l/users/sarim.hashmi/for_the_little_interns/the_experiments/svd_only/wandb/run-20241030_103657-g6gtrbr5/files/output.log
+2024-10-30 10:37:16,453 DEBUG   HandlerThread:184132 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-30 10:37:17,453 DEBUG   HandlerThread:184132 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-30 10:37:17,668 INFO    Thread-12 :184132 [dir_watcher.py:_on_file_modified():288] file/dir modified: /l/users/sarim.hashmi/for_the_little_interns/the_experiments/svd_only/wandb/run-20241030_103657-g6gtrbr5/files/output.log
+2024-10-30 10:37:18,453 DEBUG   HandlerThread:184132 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-30 10:37:18,767 DEBUG   HandlerThread:184132 [handler.py:handle_request():158] handle_request: status_report
+2024-10-30 10:37:19,453 DEBUG   HandlerThread:184132 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-30 10:37:20,453 DEBUG   HandlerThread:184132 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-30 10:37:21,453 DEBUG   HandlerThread:184132 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-30 10:37:22,453 DEBUG   HandlerThread:184132 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-30 10:37:23,453 DEBUG   HandlerThread:184132 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-30 10:37:24,453 DEBUG   HandlerThread:184132 [handler.py:handle_request():158] handle_request: status_report
+2024-10-30 10:37:24,453 DEBUG   HandlerThread:184132 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-30 10:37:25,454 DEBUG   HandlerThread:184132 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-30 10:37:26,454 DEBUG   HandlerThread:184132 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-30 10:37:27,454 DEBUG   HandlerThread:184132 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-30 10:37:28,454 DEBUG   HandlerThread:184132 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-30 10:37:29,452 DEBUG   HandlerThread:184132 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-30 10:37:29,452 DEBUG   SenderThread:184132 [sender.py:send_request():406] send_request: stop_status
+2024-10-30 10:37:29,502 DEBUG   HandlerThread:184132 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-30 10:37:29,754 DEBUG   HandlerThread:184132 [handler.py:handle_request():158] handle_request: status_report
+2024-10-30 10:37:30,454 DEBUG   HandlerThread:184132 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-30 10:37:30,678 INFO    Thread-12 :184132 [dir_watcher.py:_on_file_modified():288] file/dir modified: /l/users/sarim.hashmi/for_the_little_interns/the_experiments/svd_only/wandb/run-20241030_103657-g6gtrbr5/files/config.yaml
+2024-10-30 10:37:31,454 DEBUG   HandlerThread:184132 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-30 10:37:32,454 DEBUG   HandlerThread:184132 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-30 10:37:33,454 DEBUG   HandlerThread:184132 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-30 10:37:33,680 INFO    Thread-12 :184132 [dir_watcher.py:_on_file_modified():288] file/dir modified: /l/users/sarim.hashmi/for_the_little_interns/the_experiments/svd_only/wandb/run-20241030_103657-g6gtrbr5/files/output.log
+2024-10-30 10:37:34,454 DEBUG   HandlerThread:184132 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-30 10:37:35,377 DEBUG   HandlerThread:184132 [handler.py:handle_request():158] handle_request: status_report
+2024-10-30 10:37:35,454 DEBUG   HandlerThread:184132 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-30 10:37:35,681 INFO    Thread-12 :184132 [dir_watcher.py:_on_file_modified():288] file/dir modified: /l/users/sarim.hashmi/for_the_little_interns/the_experiments/svd_only/wandb/run-20241030_103657-g6gtrbr5/files/output.log
+2024-10-30 10:37:36,455 DEBUG   HandlerThread:184132 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-30 10:37:37,455 DEBUG   HandlerThread:184132 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-30 10:37:37,682 INFO    Thread-12 :184132 [dir_watcher.py:_on_file_modified():288] file/dir modified: /l/users/sarim.hashmi/for_the_little_interns/the_experiments/svd_only/wandb/run-20241030_103657-g6gtrbr5/files/output.log
+2024-10-30 10:37:38,427 DEBUG   HandlerThread:184132 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-30 10:37:38,428 DEBUG   SenderThread:184132 [sender.py:send():379] send: history
+2024-10-30 10:37:38,428 DEBUG   SenderThread:184132 [sender.py:send_request():406] send_request: summary_record
+2024-10-30 10:37:38,432 INFO    SenderThread:184132 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-30 10:37:38,504 DEBUG   HandlerThread:184132 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-30 10:37:38,684 INFO    Thread-12 :184132 [dir_watcher.py:_on_file_created():271] file/dir created: /l/users/sarim.hashmi/for_the_little_interns/the_experiments/svd_only/wandb/run-20241030_103657-g6gtrbr5/files/wandb-summary.json
+2024-10-30 10:37:39,478 DEBUG   HandlerThread:184132 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-30 10:37:39,685 INFO    Thread-12 :184132 [dir_watcher.py:_on_file_modified():288] file/dir modified: /l/users/sarim.hashmi/for_the_little_interns/the_experiments/svd_only/wandb/run-20241030_103657-g6gtrbr5/files/output.log
+2024-10-30 10:37:40,377 DEBUG   HandlerThread:184132 [handler.py:handle_request():158] handle_request: status_report
+2024-10-30 10:37:40,479 DEBUG   HandlerThread:184132 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-30 10:37:40,842 DEBUG   HandlerThread:184132 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-30 10:37:40,845 DEBUG   SenderThread:184132 [sender.py:send():379] send: history
+2024-10-30 10:37:40,845 DEBUG   SenderThread:184132 [sender.py:send_request():406] send_request: summary_record
+2024-10-30 10:37:40,849 INFO    SenderThread:184132 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-30 10:37:40,849 DEBUG   SenderThread:184132 [sender.py:send():379] send: telemetry
+2024-10-30 10:37:40,849 DEBUG   SenderThread:184132 [sender.py:send_request():406] send_request: summary_record
+2024-10-30 10:37:40,852 INFO    SenderThread:184132 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-30 10:37:40,853 DEBUG   SenderThread:184132 [sender.py:send_request():406] send_request: summary_record
+2024-10-30 10:37:40,856 INFO    SenderThread:184132 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-30 10:37:41,479 DEBUG   HandlerThread:184132 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-30 10:37:41,687 INFO    Thread-12 :184132 [dir_watcher.py:_on_file_modified():288] file/dir modified: /l/users/sarim.hashmi/for_the_little_interns/the_experiments/svd_only/wandb/run-20241030_103657-g6gtrbr5/files/wandb-summary.json
+2024-10-30 10:37:41,688 INFO    Thread-12 :184132 [dir_watcher.py:_on_file_modified():288] file/dir modified: /l/users/sarim.hashmi/for_the_little_interns/the_experiments/svd_only/wandb/run-20241030_103657-g6gtrbr5/files/output.log
+2024-10-30 10:37:42,478 DEBUG   HandlerThread:184132 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-30 10:37:43,345 DEBUG   SenderThread:184132 [sender.py:send():379] send: exit
+2024-10-30 10:37:43,345 INFO    SenderThread:184132 [sender.py:send_exit():586] handling exit code: 255
+2024-10-30 10:37:43,346 INFO    SenderThread:184132 [sender.py:send_exit():588] handling runtime: 44
+2024-10-30 10:37:43,349 INFO    SenderThread:184132 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-30 10:37:43,349 INFO    SenderThread:184132 [sender.py:send_exit():594] send defer
+2024-10-30 10:37:43,349 DEBUG   HandlerThread:184132 [handler.py:handle_request():158] handle_request: defer
+2024-10-30 10:37:43,350 INFO    HandlerThread:184132 [handler.py:handle_request_defer():184] handle defer: 0
+2024-10-30 10:37:43,350 DEBUG   SenderThread:184132 [sender.py:send_request():406] send_request: defer
+2024-10-30 10:37:43,350 INFO    SenderThread:184132 [sender.py:send_request_defer():610] handle sender defer: 0
+2024-10-30 10:37:43,350 INFO    SenderThread:184132 [sender.py:transition_state():614] send defer: 1
+2024-10-30 10:37:43,350 DEBUG   HandlerThread:184132 [handler.py:handle_request():158] handle_request: defer
+2024-10-30 10:37:43,350 INFO    HandlerThread:184132 [handler.py:handle_request_defer():184] handle defer: 1
+2024-10-30 10:37:43,350 DEBUG   SenderThread:184132 [sender.py:send_request():406] send_request: defer
+2024-10-30 10:37:43,350 INFO    SenderThread:184132 [sender.py:send_request_defer():610] handle sender defer: 1
+2024-10-30 10:37:43,350 INFO    SenderThread:184132 [sender.py:transition_state():614] send defer: 2
+2024-10-30 10:37:43,350 DEBUG   HandlerThread:184132 [handler.py:handle_request():158] handle_request: defer
+2024-10-30 10:37:43,350 INFO    HandlerThread:184132 [handler.py:handle_request_defer():184] handle defer: 2
+2024-10-30 10:37:43,350 INFO    HandlerThread:184132 [system_monitor.py:finish():203] Stopping system monitor
+2024-10-30 10:37:43,351 DEBUG   SystemMonitor:184132 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-10-30 10:37:43,351 INFO    HandlerThread:184132 [interfaces.py:finish():200] Joined cpu monitor
+2024-10-30 10:37:43,351 DEBUG   SystemMonitor:184132 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-10-30 10:37:43,351 INFO    HandlerThread:184132 [interfaces.py:finish():200] Joined disk monitor
+2024-10-30 10:37:43,351 DEBUG   SystemMonitor:184132 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-10-30 10:37:43,417 INFO    HandlerThread:184132 [interfaces.py:finish():200] Joined gpu monitor
+2024-10-30 10:37:43,417 INFO    HandlerThread:184132 [interfaces.py:finish():200] Joined memory monitor
+2024-10-30 10:37:43,418 INFO    HandlerThread:184132 [interfaces.py:finish():200] Joined network monitor
+2024-10-30 10:37:43,418 DEBUG   SenderThread:184132 [sender.py:send_request():406] send_request: defer
+2024-10-30 10:37:43,418 INFO    SenderThread:184132 [sender.py:send_request_defer():610] handle sender defer: 2
+2024-10-30 10:37:43,419 INFO    SenderThread:184132 [sender.py:transition_state():614] send defer: 3
+2024-10-30 10:37:43,419 DEBUG   SenderThread:184132 [sender.py:send():379] send: stats
+2024-10-30 10:37:43,419 DEBUG   HandlerThread:184132 [handler.py:handle_request():158] handle_request: defer
+2024-10-30 10:37:43,419 INFO    HandlerThread:184132 [handler.py:handle_request_defer():184] handle defer: 3
+2024-10-30 10:37:43,419 DEBUG   SenderThread:184132 [sender.py:send_request():406] send_request: defer
+2024-10-30 10:37:43,419 INFO    SenderThread:184132 [sender.py:send_request_defer():610] handle sender defer: 3
+2024-10-30 10:37:43,419 INFO    SenderThread:184132 [sender.py:transition_state():614] send defer: 4
+2024-10-30 10:37:43,420 DEBUG   HandlerThread:184132 [handler.py:handle_request():158] handle_request: defer
+2024-10-30 10:37:43,420 INFO    HandlerThread:184132 [handler.py:handle_request_defer():184] handle defer: 4
+2024-10-30 10:37:43,420 DEBUG   SenderThread:184132 [sender.py:send_request():406] send_request: defer
+2024-10-30 10:37:43,420 INFO    SenderThread:184132 [sender.py:send_request_defer():610] handle sender defer: 4
+2024-10-30 10:37:43,420 INFO    SenderThread:184132 [sender.py:transition_state():614] send defer: 5
+2024-10-30 10:37:43,420 DEBUG   HandlerThread:184132 [handler.py:handle_request():158] handle_request: defer
+2024-10-30 10:37:43,420 INFO    HandlerThread:184132 [handler.py:handle_request_defer():184] handle defer: 5
+2024-10-30 10:37:43,421 DEBUG   SenderThread:184132 [sender.py:send():379] send: summary
+2024-10-30 10:37:43,424 INFO    SenderThread:184132 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-30 10:37:43,425 DEBUG   SenderThread:184132 [sender.py:send_request():406] send_request: defer
+2024-10-30 10:37:43,425 INFO    SenderThread:184132 [sender.py:send_request_defer():610] handle sender defer: 5
+2024-10-30 10:37:43,425 INFO    SenderThread:184132 [sender.py:transition_state():614] send defer: 6
+2024-10-30 10:37:43,426 DEBUG   HandlerThread:184132 [handler.py:handle_request():158] handle_request: defer
+2024-10-30 10:37:43,426 INFO    HandlerThread:184132 [handler.py:handle_request_defer():184] handle defer: 6
+2024-10-30 10:37:43,426 DEBUG   SenderThread:184132 [sender.py:send_request():406] send_request: defer
+2024-10-30 10:37:43,426 INFO    SenderThread:184132 [sender.py:send_request_defer():610] handle sender defer: 6
+2024-10-30 10:37:43,428 DEBUG   HandlerThread:184132 [handler.py:handle_request():158] handle_request: status_report
+2024-10-30 10:37:43,679 INFO    SenderThread:184132 [sender.py:transition_state():614] send defer: 7
+2024-10-30 10:37:43,680 DEBUG   HandlerThread:184132 [handler.py:handle_request():158] handle_request: defer
+2024-10-30 10:37:43,680 INFO    HandlerThread:184132 [handler.py:handle_request_defer():184] handle defer: 7
+2024-10-30 10:37:43,680 DEBUG   SenderThread:184132 [sender.py:send_request():406] send_request: defer
+2024-10-30 10:37:43,680 INFO    SenderThread:184132 [sender.py:send_request_defer():610] handle sender defer: 7
+2024-10-30 10:37:43,689 INFO    Thread-12 :184132 [dir_watcher.py:_on_file_modified():288] file/dir modified: /l/users/sarim.hashmi/for_the_little_interns/the_experiments/svd_only/wandb/run-20241030_103657-g6gtrbr5/files/config.yaml
+2024-10-30 10:37:43,689 INFO    Thread-12 :184132 [dir_watcher.py:_on_file_modified():288] file/dir modified: /l/users/sarim.hashmi/for_the_little_interns/the_experiments/svd_only/wandb/run-20241030_103657-g6gtrbr5/files/wandb-summary.json
+2024-10-30 10:37:43,690 INFO    Thread-12 :184132 [dir_watcher.py:_on_file_modified():288] file/dir modified: /l/users/sarim.hashmi/for_the_little_interns/the_experiments/svd_only/wandb/run-20241030_103657-g6gtrbr5/files/output.log
+2024-10-30 10:37:44,345 DEBUG   HandlerThread:184132 [handler.py:handle_request():158] handle_request: poll_exit
+2024-10-30 10:37:44,795 INFO    SenderThread:184132 [sender.py:transition_state():614] send defer: 8
+2024-10-30 10:37:44,795 DEBUG   SenderThread:184132 [sender.py:send_request():406] send_request: poll_exit
+2024-10-30 10:37:44,795 DEBUG   HandlerThread:184132 [handler.py:handle_request():158] handle_request: defer
+2024-10-30 10:37:44,796 INFO    HandlerThread:184132 [handler.py:handle_request_defer():184] handle defer: 8
+2024-10-30 10:37:44,796 DEBUG   SenderThread:184132 [sender.py:send_request():406] send_request: defer
+2024-10-30 10:37:44,796 INFO    SenderThread:184132 [sender.py:send_request_defer():610] handle sender defer: 8
+2024-10-30 10:37:44,796 INFO    SenderThread:184132 [job_builder.py:build():440] Attempting to build job artifact
+2024-10-30 10:37:44,797 INFO    SenderThread:184132 [job_builder.py:_get_source_type():569] is repo sourced job
+2024-10-30 10:37:44,829 INFO    SenderThread:184132 [job_builder.py:build():545] adding wandb-job metadata file
+2024-10-30 10:37:44,837 INFO    SenderThread:184132 [sender.py:transition_state():614] send defer: 9
+2024-10-30 10:37:44,838 DEBUG   HandlerThread:184132 [handler.py:handle_request():158] handle_request: defer
+2024-10-30 10:37:44,838 DEBUG   SenderThread:184132 [sender.py:send():379] send: artifact
+2024-10-30 10:37:44,838 INFO    HandlerThread:184132 [handler.py:handle_request_defer():184] handle defer: 9
+2024-10-30 10:37:45,346 DEBUG   HandlerThread:184132 [handler.py:handle_request():158] handle_request: poll_exit
+2024-10-30 10:37:45,690 INFO    Thread-12 :184132 [dir_watcher.py:_on_file_modified():288] file/dir modified: /l/users/sarim.hashmi/for_the_little_interns/the_experiments/svd_only/wandb/run-20241030_103657-g6gtrbr5/files/output.log
+2024-10-30 10:37:46,402 INFO    wandb-upload_0:184132 [upload_job.py:push():85] Skipped uploading /home/sarim.hashmi/.local/share/wandb/artifacts/staging/tmpdnqg9cox
+2024-10-30 10:37:47,719 INFO    wandb-upload_1:184132 [upload_job.py:push():88] Uploaded file /tmp/tmpbntdgcd4/wandb-job.json
+2024-10-30 10:37:49,196 INFO    SenderThread:184132 [sender.py:send_artifact():1537] sent artifact job-https___github.com_JayParanjape_SVDSAM.git_driver_scratchpad.py - {'id': 'QXJ0aWZhY3Q6MTMwMDI1Nzg2NQ==', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ4Mjc2MTE5Nw==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTMwMDI1NDI5OA==', 'versionIndex': 0}}}
+2024-10-30 10:37:49,197 DEBUG   SenderThread:184132 [sender.py:send_request():406] send_request: defer
+2024-10-30 10:37:49,197 DEBUG   HandlerThread:184132 [handler.py:handle_request():158] handle_request: status_report
+2024-10-30 10:37:49,197 INFO    SenderThread:184132 [sender.py:send_request_defer():610] handle sender defer: 9
+2024-10-30 10:37:49,197 INFO    SenderThread:184132 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-10-30 10:37:49,692 INFO    SenderThread:184132 [dir_watcher.py:finish():388] scan: /l/users/sarim.hashmi/for_the_little_interns/the_experiments/svd_only/wandb/run-20241030_103657-g6gtrbr5/files
+2024-10-30 10:37:49,693 INFO    SenderThread:184132 [dir_watcher.py:finish():402] scan save: /l/users/sarim.hashmi/for_the_little_interns/the_experiments/svd_only/wandb/run-20241030_103657-g6gtrbr5/files/conda-environment.yaml conda-environment.yaml
+2024-10-30 10:37:49,693 INFO    SenderThread:184132 [dir_watcher.py:finish():402] scan save: /l/users/sarim.hashmi/for_the_little_interns/the_experiments/svd_only/wandb/run-20241030_103657-g6gtrbr5/files/config.yaml config.yaml
+2024-10-30 10:37:49,693 INFO    SenderThread:184132 [dir_watcher.py:finish():402] scan save: /l/users/sarim.hashmi/for_the_little_interns/the_experiments/svd_only/wandb/run-20241030_103657-g6gtrbr5/files/output.log output.log
+2024-10-30 10:37:49,693 INFO    SenderThread:184132 [dir_watcher.py:finish():402] scan save: /l/users/sarim.hashmi/for_the_little_interns/the_experiments/svd_only/wandb/run-20241030_103657-g6gtrbr5/files/wandb-metadata.json wandb-metadata.json
+2024-10-30 10:37:49,693 INFO    SenderThread:184132 [dir_watcher.py:finish():402] scan save: /l/users/sarim.hashmi/for_the_little_interns/the_experiments/svd_only/wandb/run-20241030_103657-g6gtrbr5/files/wandb-summary.json wandb-summary.json
+2024-10-30 10:37:49,696 INFO    SenderThread:184132 [dir_watcher.py:finish():402] scan save: /l/users/sarim.hashmi/for_the_little_interns/the_experiments/svd_only/wandb/run-20241030_103657-g6gtrbr5/files/requirements.txt requirements.txt
+2024-10-30 10:37:49,697 INFO    SenderThread:184132 [sender.py:transition_state():614] send defer: 10
+2024-10-30 10:37:49,698 DEBUG   SenderThread:184132 [sender.py:send_request():406] send_request: poll_exit
+2024-10-30 10:37:49,700 DEBUG   HandlerThread:184132 [handler.py:handle_request():158] handle_request: defer
+2024-10-30 10:37:49,700 INFO    HandlerThread:184132 [handler.py:handle_request_defer():184] handle defer: 10
+2024-10-30 10:37:49,701 DEBUG   SenderThread:184132 [sender.py:send_request():406] send_request: defer
+2024-10-30 10:37:49,701 INFO    SenderThread:184132 [sender.py:send_request_defer():610] handle sender defer: 10
+2024-10-30 10:37:49,701 INFO    SenderThread:184132 [file_pusher.py:finish():169] shutting down file pusher
+2024-10-30 10:37:50,256 INFO    wandb-upload_1:184132 [upload_job.py:push():130] Uploaded file /l/users/sarim.hashmi/for_the_little_interns/the_experiments/svd_only/wandb/run-20241030_103657-g6gtrbr5/files/output.log
+2024-10-30 10:37:50,349 DEBUG   HandlerThread:184132 [handler.py:handle_request():158] handle_request: keepalive
+2024-10-30 10:37:50,349 DEBUG   HandlerThread:184132 [handler.py:handle_request():158] handle_request: poll_exit
+2024-10-30 10:37:50,350 DEBUG   SenderThread:184132 [sender.py:send_request():406] send_request: poll_exit
+2024-10-30 10:37:50,557 INFO    wandb-upload_0:184132 [upload_job.py:push():130] Uploaded file /l/users/sarim.hashmi/for_the_little_interns/the_experiments/svd_only/wandb/run-20241030_103657-g6gtrbr5/files/config.yaml
+2024-10-30 10:37:50,661 INFO    wandb-upload_2:184132 [upload_job.py:push():130] Uploaded file /l/users/sarim.hashmi/for_the_little_interns/the_experiments/svd_only/wandb/run-20241030_103657-g6gtrbr5/files/wandb-summary.json
+2024-10-30 10:37:50,687 INFO    wandb-upload_3:184132 [upload_job.py:push():130] Uploaded file /l/users/sarim.hashmi/for_the_little_interns/the_experiments/svd_only/wandb/run-20241030_103657-g6gtrbr5/files/requirements.txt
+2024-10-30 10:37:50,887 INFO    Thread-11 (_thread_body):184132 [sender.py:transition_state():614] send defer: 11
+2024-10-30 10:37:50,888 DEBUG   HandlerThread:184132 [handler.py:handle_request():158] handle_request: defer
+2024-10-30 10:37:50,888 INFO    HandlerThread:184132 [handler.py:handle_request_defer():184] handle defer: 11
+2024-10-30 10:37:50,888 DEBUG   SenderThread:184132 [sender.py:send_request():406] send_request: defer
+2024-10-30 10:37:50,888 INFO    SenderThread:184132 [sender.py:send_request_defer():610] handle sender defer: 11
+2024-10-30 10:37:50,888 INFO    SenderThread:184132 [file_pusher.py:join():175] waiting for file pusher
+2024-10-30 10:37:50,889 INFO    SenderThread:184132 [sender.py:transition_state():614] send defer: 12
+2024-10-30 10:37:50,889 DEBUG   HandlerThread:184132 [handler.py:handle_request():158] handle_request: defer
+2024-10-30 10:37:50,889 INFO    HandlerThread:184132 [handler.py:handle_request_defer():184] handle defer: 12
+2024-10-30 10:37:50,889 DEBUG   SenderThread:184132 [sender.py:send_request():406] send_request: defer
+2024-10-30 10:37:50,890 INFO    SenderThread:184132 [sender.py:send_request_defer():610] handle sender defer: 12
+2024-10-30 10:37:50,890 INFO    SenderThread:184132 [file_stream.py:finish():601] file stream finish called
+2024-10-30 10:37:51,142 INFO    SenderThread:184132 [file_stream.py:finish():605] file stream finish is done
+2024-10-30 10:37:51,142 INFO    SenderThread:184132 [sender.py:transition_state():614] send defer: 13
+2024-10-30 10:37:51,143 DEBUG   HandlerThread:184132 [handler.py:handle_request():158] handle_request: defer
+2024-10-30 10:37:51,143 INFO    HandlerThread:184132 [handler.py:handle_request_defer():184] handle defer: 13
+2024-10-30 10:37:51,143 DEBUG   SenderThread:184132 [sender.py:send_request():406] send_request: defer
+2024-10-30 10:37:51,143 INFO    SenderThread:184132 [sender.py:send_request_defer():610] handle sender defer: 13
+2024-10-30 10:37:51,144 INFO    SenderThread:184132 [sender.py:transition_state():614] send defer: 14
+2024-10-30 10:37:51,144 DEBUG   HandlerThread:184132 [handler.py:handle_request():158] handle_request: defer
+2024-10-30 10:37:51,144 DEBUG   SenderThread:184132 [sender.py:send():379] send: final
+2024-10-30 10:37:51,144 INFO    HandlerThread:184132 [handler.py:handle_request_defer():184] handle defer: 14
+2024-10-30 10:37:51,144 DEBUG   SenderThread:184132 [sender.py:send():379] send: footer
+2024-10-30 10:37:51,144 DEBUG   SenderThread:184132 [sender.py:send_request():406] send_request: defer
+2024-10-30 10:37:51,144 INFO    SenderThread:184132 [sender.py:send_request_defer():610] handle sender defer: 14
+2024-10-30 10:37:51,145 DEBUG   HandlerThread:184132 [handler.py:handle_request():158] handle_request: poll_exit
+2024-10-30 10:37:51,145 DEBUG   SenderThread:184132 [sender.py:send_request():406] send_request: poll_exit
+2024-10-30 10:37:51,146 DEBUG   HandlerThread:184132 [handler.py:handle_request():158] handle_request: server_info
+2024-10-30 10:37:51,146 DEBUG   HandlerThread:184132 [handler.py:handle_request():158] handle_request: poll_exit
+2024-10-30 10:37:51,146 DEBUG   SenderThread:184132 [sender.py:send_request():406] send_request: server_info
+2024-10-30 10:37:51,148 DEBUG   HandlerThread:184132 [handler.py:handle_request():158] handle_request: get_summary
+2024-10-30 10:37:51,148 DEBUG   HandlerThread:184132 [handler.py:handle_request():158] handle_request: sampled_history
+2024-10-30 10:37:51,149 DEBUG   HandlerThread:184132 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-30 10:37:51,384 DEBUG   SenderThread:184132 [sender.py:send_request():406] send_request: poll_exit
+2024-10-30 10:37:51,384 INFO    MainThread:184132 [wandb_run.py:_footer_history_summary_info():4016] rendering history
+2024-10-30 10:37:51,385 INFO    MainThread:184132 [wandb_run.py:_footer_history_summary_info():4048] rendering summary
+2024-10-30 10:37:51,385 INFO    MainThread:184132 [wandb_run.py:_footer_sync_info():3975] logging synced files
+2024-10-30 10:37:51,385 DEBUG   HandlerThread:184132 [handler.py:handle_request():158] handle_request: shutdown
+2024-10-30 10:37:51,385 INFO    HandlerThread:184132 [handler.py:finish():882] shutting down handler
+2024-10-30 10:37:52,147 INFO    WriterThread:184132 [datastore.py:close():296] close: /l/users/sarim.hashmi/for_the_little_interns/the_experiments/svd_only/wandb/run-20241030_103657-g6gtrbr5/run-g6gtrbr5.wandb
+2024-10-30 10:37:52,384 INFO    SenderThread:184132 [sender.py:finish():1615] shutting down sender
+2024-10-30 10:37:52,384 INFO    SenderThread:184132 [file_pusher.py:finish():169] shutting down file pusher
+2024-10-30 10:37:52,385 INFO    SenderThread:184132 [file_pusher.py:join():175] waiting for file pusher

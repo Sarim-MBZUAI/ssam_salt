@@ -1,0 +1,210 @@
+{
+    "os": "Linux-5.15.133-ql-generic-13.0-9-x86_64-with-glibc2.35",
+    "python": "3.12.1",
+    "heartbeatAt": "2024-10-30T15:19:03.292371",
+    "startedAt": "2024-10-30T15:19:02.519644",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--model_config",
+        "model_svdtuning.yml",
+        "--data_config",
+        "config_arcade.yml",
+        "--save_path",
+        "./temp.pth"
+    ],
+    "state": "running",
+    "program": "/l/users/sarim.hashmi/for_the_little_interns/the_experiments/drive_dataset/svd_only/driver_scratchpad.py",
+    "codePathLocal": "driver_scratchpad.py",
+    "codePath": "driver_scratchpad.py",
+    "git": {
+        "remote": "https://github.com/JayParanjape/SVDSAM.git",
+        "commit": "5936d0eff64d84fbefed6ecfe4bcc841459c2fc3"
+    },
+    "cpu_count": 16,
+    "cpu_count_logical": 32,
+    "cpu_freq": {
+        "current": 3.916343750000002,
+        "min": 2200.0,
+        "max": 3900.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 4.198,
+            "min": 2200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 2200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 2200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 2200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 2200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 2200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 2200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 2200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 2200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 2200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 2200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 2200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 2200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 2200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 2200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 2200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 2200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 2200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 2200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 2200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 2200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 2200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 2200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 2200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 2200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 4.125,
+            "min": 2200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 2200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 2200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 2200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 2200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 2200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 2200.0,
+            "max": 3900.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 1.0,
+            "used": 0.04193878173828125
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 4090",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 4090",
+            "memory_total": 25757220864
+        }
+    ],
+    "memory": {
+        "total": 62.65229034423828
+    }
+}

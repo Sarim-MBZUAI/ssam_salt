@@ -1,0 +1,17 @@
+Training parameters:
+----------
+number of trainable parameters:  1034496
+batch size:  5
+num epochs:  200
+Epoch 0/199
+----------
+Traceback (most recent call last):
+  File "/l/users/sarim.hashmi/for_the_little_interns/the_experiments/svd_only/driver_scratchpad.py", line 956, in <module>
+    main_train(
+  File "/l/users/sarim.hashmi/for_the_little_interns/the_experiments/svd_only/driver_scratchpad.py", line 877, in main_train
+    model = train_dl(
+            ^^^^^^^^^
+  File "/l/users/sarim.hashmi/for_the_little_interns/the_experiments/svd_only/train.py", line 204, in train_dl
+    dataloaders[phase] = torch.utils.data.DataLoader(datasets[phase], batch_size=bs, shuffle=True, num_workers=4)
+                                                     ~~~~~~~~^^^^^^^
+KeyError: 'train'
